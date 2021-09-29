@@ -12,3 +12,18 @@ ul{
     padding: 10px;
     box-sizing: border-box;
 }
+.mainbuttom{
+    background-color: #6fbd7e;
+    color: white;
+    animation: 5s;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+.mainbuttom:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px gray;
+    transform: scale(1.01);
+}
