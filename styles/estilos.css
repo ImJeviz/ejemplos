@@ -27,3 +27,28 @@ ul{
     box-shadow: 2px 2px gray;
     transform: scale(1.01);
 }
+button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.mainbuttom{
+    background-color: #6fbd7e;
+    color: white;
+    animation: 5s;
+}
+.mainbuttom:hover{
+    box-shadow: 2px 2px gray;
+}
+.secondarybuttom{
+    background-color: #01442f;
+    color: white;
+}
+.secondarybuttom:hover{
+    box-shadow: #29eca8;
+}
