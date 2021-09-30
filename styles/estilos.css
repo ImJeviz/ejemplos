@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.logo {
+    height: 80px;
+}
+.mainbuttom{
+    background-color: #6fbd7e;
+    color: white;
+    animation: 5s;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+.mainbuttom:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px gray;
+    transform: scale(1.01);
+}
+button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.mainbuttom{
+    background-color: #6fbd7e;
+    color: white;
+    animation: 5s;
+}
+.mainbuttom:hover{
+    box-shadow: 2px 2px gray;
+}
+.secondarybuttom{
+    background-color: #01442f;
+    color: white;
+}
+.secondarybuttom:hover{
+    box-shadow: #29eca8;
+}
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 10px;
+}
+.buscar:focus-within{
+    border: 1px solid #3bcecc;
+}
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
