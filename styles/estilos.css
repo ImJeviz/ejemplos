@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: #bb9871;
 }
 ul{
     list-style: none;
@@ -87,14 +88,29 @@ button{
 }
 .breadCard{
     margin: 10px;
+    background-color: #0e17d9;
+    box-shadow: 5px 5px 5px #151775;
+    border-radius: 10px;
+}
+.breadTitle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
 .contenedorImagen{
     width: 240px;
     height: 360px;
     display: flex;
 }
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
 .contenedorImagen > img{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
