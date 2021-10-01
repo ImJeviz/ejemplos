@@ -11,19 +11,27 @@ ul{
     justify-content: space-between;
     padding: 10px;
     box-sizing: border-box;
+    background-color: #0b123b;
+    border-bottom: 1px solid #01442f;
+    box-shadow: 1px 1px #2a362d;
 }
+.navbar > li{
+    display: flex;
+    align-items: center;
+}
+
 .logo {
-    height: 80px;
+    height: 70px;
+    width: 70px;
 }
 .mainbuttom{
-    background-color: #6fbd7e;
+    background-color: #a45b2c;
     color: white;
     animation: 5s;
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-
 }
 .mainbuttom:hover{
     cursor: pointer;
@@ -41,7 +49,7 @@ button{
     transform: scale(1.01);
 }
 .mainbuttom{
-    background-color: #6fbd7e;
+    background-color: #a45b2c;
     color: white;
     animation: 5s;
 }
@@ -49,22 +57,28 @@ button{
     box-shadow: 2px 2px gray;
 }
 .secondarybuttom{
-    background-color: #01442f;
+    background-color: #93390a;
     color: white;
 }
 .secondarybuttom:hover{
-    box-shadow: #29eca8;
+    box-shadow: #000000;
 }
 .buscar{
     background-color: white;
     border: 1px solid gray;
     padding: 4px;
     border-radius: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 .buscar:focus-within{
-    border: 1px solid #3bcecc;
+    border: 1px solid #a45b2c;
 }
 .buscar > input{
     outline: none;
     border: 0px;
+}
+.iconobuscar:hover{
+    color: #a45b2c;
 }
