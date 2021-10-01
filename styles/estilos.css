@@ -82,3 +82,19 @@ button{
 .iconobuscar:hover{
     color: #a45b2c;
 }
+.breadCardContainer{
+    display: flex;
+}
+.breadCard{
+    margin: 10px;
+}
+.contenedorImagen{
+    width: 240px;
+    height: 360px;
+    display: flex;
+}
+.contenedorImagen > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
