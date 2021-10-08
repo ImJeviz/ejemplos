@@ -33,30 +33,25 @@ function App() {
         <section>
           <h1>Estampados</h1>
           <ul className="breadCardContainer">
-            <li className="breadCard">
-              <div className="contenedorImagen">
-                <img src={camiseta2}/>
-              </div>
-              <span className="breadTitle">Shirt 0420</span>
-            </li>
-            <li className="breadCard">
-              <div className="contenedorImagen">
-                <img src={camiseta3}/>
-              </div>
-              <span className="breadTitle">Shirt 6940</span>
-            </li>
-            <li className="breadCard">
-              <div className="contenedorImagen">
-                <img src={camiseta5}/>
-              </div>
-              <span className="breadTitle">Shirt 0069</span>
-            </li>
+            <CardCamisetas codigo="Shirt 0420" imagen={camiseta2} />
+            <CardCamisetas codigo="Shirt 6920" imagen={camiseta3} />
+            <CardCamisetas codigo="Shirt 0069" imagen={camiseta5} />
           </ul>
         </section>
         <section></section>
       </main>
       <footer></footer>
     </div>
+  );
+}
+function CardCamisetas({imagen,codigo}){
+  return (
+    <li className="breadCard">
+      <div className="contenedorImagen">
+        <img src={imagen} alt={codigo}/>
+      </div>
+      <span className="breadTitle">{codigo}</span>
+    </li>
   );
 }
 
