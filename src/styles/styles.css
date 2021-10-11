@@ -7,6 +7,21 @@ ul{
   padding: 0px;
   margin: 0px;
 }
+section > h1{
+  text-align: center;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.mainContainer > main{
+  height: 100%;
+}
+.mainContainer > footer{
+  background-color: #1c011c;
+  padding: 10px;
+}
 .navbar{
   display:flex;
   justify-content: space-between;
@@ -20,7 +35,6 @@ ul{
   display: flex;
   align-items: center;
 }
-
 .logo {
   height: 70px;
   width: 70px;
@@ -84,7 +98,9 @@ button{
   color: #822ca4;
 }
 .breadCardContainer{
+  justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 }
 .breadCard{
   margin: 10px;
